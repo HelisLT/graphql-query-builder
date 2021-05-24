@@ -1,15 +1,10 @@
 {
-    "name": "helis/graphql-query-builder",
-    "description": "Query builder library for GraphQL",
-    "type": "library",
-    "license": "MIT",
     "authors": [
         {
             "name": "Helis LT",
             "email": "info@helis.lt"
         }
     ],
-    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Helis\\GraphqlQueryBuilder\\": "src/"
@@ -20,10 +15,15 @@
             "Helis\\GraphqlQueryBuilder\\Test\\": "tests/"
         }
     },
+    "description": "Query builder library for GraphQL",
+    "license": "MIT",
+    "name": "helis/graphql-query-builder",
+    "minimum-stability": "stable",
     "require": {
-        "php": ">=7.1.3"
+        "php": "^7.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^7.0"
-    }
+    },
+    "type": "library"
 }
