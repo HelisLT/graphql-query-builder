@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Helis\GraphqlQueryBuilder\Test\Unit;
+namespace Helis\GraphqlQueryBuilder\Test;
 
 use Helis\GraphqlQueryBuilder\Argument\ListValue;
 use Helis\GraphqlQueryBuilder\Argument\ObjectValue;
